@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Xcode local user settings and build products
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcarchive
+*.ipa
+*.dSYM/
+
+# Swift Package Manager local artifacts
+.build/
+.swiftpm/
+
+# Local secrets
+.env
+.env.*
+!.env.example
